@@ -30,7 +30,7 @@
     "start_url": "https://govjobs.sukhsangamincense.com/main.html",
     "background_color": "#000",
     "display": "fullscreen",
-    "scope":"/",
+    "scope":"https://govjobs.sukhsangamincense.com/",
     "theme_color": "black",
     "description": "Welcome to Govt Jobs Success Tips",
     "orientation": "portrait-primary"
