@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./icon.ico" type="image/x-icon">
-    <link rel="manifest" href="./appmanifest.json">
+    <link rel="manifest" href="app.webmanifest">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap"
         rel="stylesheet">
@@ -40,7 +40,29 @@
             }
         });
     </script>
+<style>
+    output {
+        display: none;
+    }
 
+    .toolbar {
+        width: 100%;
+        display: flex;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        justify-content: center;
+    }
+
+    button {
+        display: block;
+        font-size: 16px;
+        border: 2px solid black;
+        border-radius: 8px;
+        padding: 16px;
+        margin: 0 8px;
+        text-transform: uppercase;
+    }
+</style>
 
     <title>Govt Jobs Success Tips</title>
 </head>
@@ -60,6 +82,10 @@
                     <h3>For latest and previous videos please download and install by clicking below link.</h3><br>Thank you
                     & all the best. Please forward this app link to your friends also.
                     <br><br>
+                    <section class="toolbar">
+                        <button id="install">Install this App</button>
+                    </section>
+                    <output></output>
                     <hr>
             </div>
         </main>
